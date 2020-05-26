@@ -2,7 +2,7 @@ Following [last year's](https://github.com/mhausenblas/aws-container-security-su
 
 Overall, the plan is as follows:
 
-* 06/2020: [Survey Questions CfP](#)
+* 06/2020: [Survey Questions CfP](#call-for-participation-survey-questions)
 * 07-09/2020: [Survey](#survey)
 * 10/2020: [Results](#results)
 
