@@ -1,4 +1,6 @@
-Following [last year's](https://github.com/mhausenblas/aws-container-security-survey-2019) survey, in 2020 we will again ask you questions around good practices and uptake of tools and methodologies concerning container security.
+# AWS Container Security Survey 2020
+
+Following [last year's survey](https://github.com/mhausenblas/aws-container-security-survey-2019), in 2020 we will again ask you questions around good practices and uptake of tools and methodologies concerning security of your container workloads on AWS.
 
 Overall, the plan is as follows:
 
