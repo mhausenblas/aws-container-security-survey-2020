@@ -21,9 +21,11 @@ The container orchestrator and compute engine of choice. This is what I am alrea
 - ECS on Fargate
 - EKS on EC2
 - EKS on Fargate
+- EKS on Managed Nodes
 - DIY Kubernetes (kops, etc.)
 - HashiCorp Nomad
 - Docker EE
+- OpenShift on AWS
 
 ## Q3: Are you scanning your container images?
 
@@ -45,6 +47,7 @@ Performing dynamic container scanning, as part of the container orchestrator and
 - CNCF Falco
 - Aqua Security
 - NeuVector
+- Twistlock Defender
 - Nope, not scanning containers (yet)
 
 ## Q5: How are you managing sensitive data?
@@ -54,6 +57,7 @@ Keeping sensitive data, such as passwords and API keys safe at rest. I'm using:
 - AWS Secrets Manager
 - AWS Parameter Store
 - HashiCorp Vault
+- CyberArk
 - DIY encryption
 - Nope, not encrypting sensitive data (yet)
 
