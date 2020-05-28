@@ -101,6 +101,7 @@ To enforce Kubernetes Network Policies, I'm using:
 - Cilium
 - DIY eBPF
 - Via a service mesh
+- Nope, not using Network Policies
 
 ## Q12: Kubernetes: Pod Security Policies
 
