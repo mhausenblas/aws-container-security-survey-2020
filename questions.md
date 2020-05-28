@@ -79,6 +79,8 @@ In order to manage and enforce policies (workflow or regulatory wise) I'm using:
 
 - CNCF Open Policy Agent
 - Aqua Security
+- Octarine
+- Portshift
 - Custom solution
 - Nope, not managing policies (yet)
 
