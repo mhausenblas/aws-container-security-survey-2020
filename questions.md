@@ -43,6 +43,7 @@ Performing static container image scanning, for example, as part of the build pi
 Performing dynamic container scanning, as part of the container orchestrator and/or runtime. I'm using:
 
 - CNCF Falco
+- Aqua Security
 - NeuVector
 - Nope, not scanning containers (yet)
 
@@ -77,6 +78,7 @@ I'm managing artefacts such as container images along the supply chain using:
 In order to manage and enforce policies (workflow or regulatory wise) I'm using:
 
 - CNCF Open Policy Agent
+- Aqua Security
 - Custom solution
 - Nope, not managing policies (yet)
 
