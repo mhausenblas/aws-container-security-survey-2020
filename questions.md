@@ -35,7 +35,7 @@ Performing static container image scanning, for example, as part of the build pi
 - Aqua Security
 - StackRox
 - Sysdig Secure
-- Twistlock
+- Prisma Cloud (Twistlock)
 - Nope, not scanning images (yet)
 
 ## Q4: Are you scanning containers at runtime?
