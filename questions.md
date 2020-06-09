@@ -52,7 +52,7 @@ Performing static container image scanning, for example, as part of the build pi
 - Aqua Security
 - StackRox
 - Sysdig Secure
-- Twistlock
+- Prisma Cloud (Twistlock)
 - Nope, not scanning images (yet)
 
 ## Q7: Are you scanning containers at runtime?
@@ -98,6 +98,8 @@ In order to manage and enforce policies (workflow or regulatory wise) I'm using:
 
 - CNCF Open Policy Agent
 - Aqua Security
+- Octarine
+- Portshift
 - Custom solution
 - Nope, not managing policies (yet)
 
