@@ -43,6 +43,7 @@ Performing static container image scanning, for example, as part of the build pi
 Performing dynamic container scanning, as part of the container orchestrator and/or runtime. I'm using:
 
 - CNCF Falco
+- Prisma Cloud (Twistlock)
 - Aqua Security
 - NeuVector
 - Nope, not scanning containers (yet)
@@ -79,6 +80,7 @@ In order to manage and enforce policies (workflow or regulatory wise) I'm using:
 
 - CNCF Open Policy Agent
 - Aqua Security
+- Prisma Cloud (Twistlock)
 - Octarine
 - Portshift
 - Custom solution
