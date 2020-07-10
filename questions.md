@@ -21,11 +21,28 @@ The container orchestrator and compute engine of choice. This is what I am alrea
 - ECS on Fargate
 - EKS on EC2
 - EKS on Fargate
+- EKS on Managed Nodes
 - DIY Kubernetes (kops, etc.)
 - HashiCorp Nomad
 - Docker EE
+- OpenShift on AWS
 
-## Q3: Are you scanning your container images?
+## Q3: Do you use a single source of truth for your repositories?
+- YES
+- NO
+
+## Q4: Do you consume third party approved images directly from the provider (coredns, aws-alb-ingress-controller, etc)?
+- YES
+- NO
+
+## Q5: What repository you currently use or plan to use?
+- Docker Hub
+- JFrog Repository (On Premise)
+- JFrog Repository (On AWS)
+- ECR
+- Other
+
+## Q6: Are you scanning your container images?
 
 Performing static container image scanning, for example, as part of the build pipeline. I'm using:
 
@@ -38,7 +55,7 @@ Performing static container image scanning, for example, as part of the build pi
 - Prisma Cloud (Twistlock)
 - Nope, not scanning images (yet)
 
-## Q4: Are you scanning containers at runtime?
+## Q7: Are you scanning containers at runtime?
 
 Performing dynamic container scanning, as part of the container orchestrator and/or runtime. I'm using:
 
@@ -46,19 +63,21 @@ Performing dynamic container scanning, as part of the container orchestrator and
 - Prisma Cloud (Twistlock)
 - Aqua Security
 - NeuVector
+- Twistlock Defender
 - Nope, not scanning containers (yet)
 
-## Q5: How are you managing sensitive data?
+## Q8: How are you managing sensitive data?
 
 Keeping sensitive data, such as passwords and API keys safe at rest. I'm using:
 
 - AWS Secrets Manager
 - AWS Parameter Store
 - HashiCorp Vault
+- CyberArk
 - DIY encryption
 - Nope, not encrypting sensitive data (yet)
 
-## Q6: Are you signing container images?
+## Q9: Are you signing container images?
 
 Signing container images cryptographically. I'm using:
 
@@ -66,7 +85,7 @@ Signing container images cryptographically. I'm using:
 - CNCF TUF-based
 - Nope, not signing my images (yet)
 
-## Q7: How are you managing your supply chain?
+## Q10: How are you managing your supply chain?
 
 I'm managing artefacts such as container images along the supply chain using:
 
@@ -74,7 +93,7 @@ I'm managing artefacts such as container images along the supply chain using:
 - Grafeas
 - Nope, not managing my supply chain (yet)
 
-## Q8: Policy Management
+## Q11: Policy Management
 
 In order to manage and enforce policies (workflow or regulatory wise) I'm using:
 
@@ -86,19 +105,19 @@ In order to manage and enforce policies (workflow or regulatory wise) I'm using:
 - Custom solution
 - Nope, not managing policies (yet)
 
-## Q9: GitOps
+## Q12: GitOps
 
 In order to strengthen my security posture I'm planning to or are already applying GitOps as a good practice (using tools such as CNCF Flux in case of Kubernetes).
 
 `YES/NO`
 
-## Q10: Are you using Kubernetes?
+## Q13: Are you using Kubernetes?
 
 `YES/NO`
 
 If the answer to this question Q10 is "Yes", the following questions Q11 to Q14 are asked as well.
 
-## Q11: Kubernetes: Network Policies
+## Q14: Kubernetes: Network Policies
 
 To enforce Kubernetes Network Policies, I'm using:
 
@@ -109,11 +128,11 @@ To enforce Kubernetes Network Policies, I'm using:
 - Via a service mesh
 - Nope, not using Network Policies
 
-## Q12: Kubernetes: Pod Security Policies
+## Q15: Kubernetes: Pod Security Policies
 
 To enforce runtime policies I am using Kubernetes Pod Security Policies: `YES/NO`
 
-## Q13: Kubernetes: User Management
+## Q16: Kubernetes: User Management
 
 To manage user identities I'm using:
 
@@ -121,7 +140,7 @@ To manage user identities I'm using:
 - Active Directory/LDAP
 - SSO (OpenID Connect/dex, etc.)
 
-## Q14: Kubernetes: Least Privileges for AWS Services Access
+## Q17: Kubernetes: Least Privileges for AWS Services Access
 
 When using AWS services from apps running on Kubernetes, I'm using:
 
@@ -130,6 +149,6 @@ When using AWS services from apps running on Kubernetes, I'm using:
 - `kiam`
 - I'm assigning the IAM role to the nodes
 
-## Q15: Any other security-related feature of AWS you're using? Any container security tool?
+## Q18: Any other security-related feature of AWS you're using? Any container security tool?
 
 This is a free-form comment, so feel free to share any other tool you're evaluating or already using. For example, Firecracker for multi-tenancy or `audit2rbac` for generating RBAC roles in Kubernetes.
